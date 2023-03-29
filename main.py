@@ -1,1 +1,7 @@
-print ("hello world")
+name = input("whats your name? ")
+adjective = input("whats an adjective that describes you? ")
+verb = input("whats a verb that describes you? ")
+place = input("enter your favourite place ")
+food = input("enter your favourite food ")
+vehicle = input("name a car ")
+print(f"{name} is a very {adjective} person to be around. They love to {verb} in {place}. Their favourite food is {food} which they eat in a {vehicle}.")
